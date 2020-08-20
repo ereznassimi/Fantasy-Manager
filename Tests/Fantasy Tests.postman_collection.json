@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "3e944af1-74ce-41ef-be18-b10b4a49c572",
+		"name": "Fantasy Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44303/api/transfers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"a30@b.com\",\r\n    \"password\": \"abcde\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/api/transfers",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
