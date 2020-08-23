@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System.Threading.Tasks;
 
+
 namespace FantasyRestServer.Controllers
 {
     public class FantasyBaseController : ControllerBase
