@@ -5,13 +5,11 @@ using Xunit;
 
 namespace FantasyXUnitTest
 {
-    public class T01_BasicTests : IClassFixture<WebApplicationFactory<FantasyRestServer.Startup>>
+    public class T01_BasicTests : T00_WebTestBase
     {
-        private readonly WebApplicationFactory<FantasyRestServer.Startup> WebFactory;
-
         public T01_BasicTests(WebApplicationFactory<FantasyRestServer.Startup> factory)
+            : base(factory)
         {
-            WebFactory = factory;
         }
 
         [Fact]
